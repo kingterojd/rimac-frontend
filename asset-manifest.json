@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/rimac-frontend/static/css/main.863ebcf6.css",
+    "main.js": "/rimac-frontend/static/js/main.fec7bbaf.js",
+    "static/js/453.0e4fb715.chunk.js": "/rimac-frontend/static/js/453.0e4fb715.chunk.js",
+    "static/media/family-image.svg": "/rimac-frontend/static/media/family-image.b7c246a6b44d526dcb83bb675d3fbf1c.svg",
+    "static/media/icon-other.svg": "/rimac-frontend/static/media/icon-other.644655fff5405dc76c5a8f0fcf4ab8d1.svg",
+    "static/media/rimac-logo-red.svg": "/rimac-frontend/static/media/rimac-logo-red.54af580c4edc35d79b05157f59de52d4.svg",
+    "static/media/icon-me.svg": "/rimac-frontend/static/media/icon-me.ac0f705c4202983e3dc442251af8eaea.svg",
+    "static/media/plan-0.svg": "/rimac-frontend/static/media/plan-0.920be280d27dc725a21cb5d1cf8d4e1c.svg",
+    "static/media/plan-2.svg": "/rimac-frontend/static/media/plan-2.17f935475c28c261b2b0433090421141.svg",
+    "static/media/plan-1.svg": "/rimac-frontend/static/media/plan-1.2233be186f508190efee1c82246331e6.svg",
+    "static/media/icon-people.svg": "/rimac-frontend/static/media/icon-people.3a6d049f6bda6522aa7e180fae2e83fa.svg",
+    "index.html": "/rimac-frontend/index.html",
+    "main.863ebcf6.css.map": "/rimac-frontend/static/css/main.863ebcf6.css.map",
+    "main.fec7bbaf.js.map": "/rimac-frontend/static/js/main.fec7bbaf.js.map",
+    "453.0e4fb715.chunk.js.map": "/rimac-frontend/static/js/453.0e4fb715.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.863ebcf6.css",
+    "static/js/main.fec7bbaf.js"
+  ]
+}
