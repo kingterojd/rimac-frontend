@@ -1,38 +1,92 @@
-.App {
+.option-selector {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.option-card {
+  border: 2px solid #ccc;
+  padding: 20px;
+  width: 45%;
+  cursor: pointer;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.option-card.selected {
+  border-color: #00f;
+  background-color: #f0f8ff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul {
+  list-style: none;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  border: 1px solid #ddd;
+  margin: 10px 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+button {
+  background-color: #00f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055ff;
+}
+
+.option-selector {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  gap: 20px;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.option-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.option-card.selected {
+  background-color: #007bff;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.slider-container {
+  width: 80%;
+  margin: 0 auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: #f0f0f0;
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.tabs button.active {
+  background-color: #007bff;
+  color: white;
+}
+
+.resumen-card {
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
 }

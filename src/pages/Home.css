@@ -1,0 +1,77 @@
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.rimac-logo {
+  height: 50px;
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+}
+
+.phone-icon {
+  margin-right: 5px;
+  color: #d32f2f;
+}
+
+.phone-number {
+  font-size: 1rem;
+  color: #d32f2f;
+}
+
+/* Main Content */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.image-container {
+  flex: 1;
+  /* margin-right: 40px; */
+}
+
+.family-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: auto;
+}
+
+.form-section {
+  flex: 1;
+}
+
+h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+
+.rimac-logo-footer {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.footer p {
+  font-size: 0.9rem;
+  color: #555;
+}

@@ -1,0 +1,126 @@
+/* Estilos para el contenedor general */
+.slider-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  background: #fafbff;
+}
+
+/* Estilos para el header */
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd; */
+}
+
+.logo img {
+  max-height: 40px;
+}
+
+.contact-info {
+  text-align: right;
+}
+
+.phone-number {
+  color: #03050F;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: 0.4px;
+}
+
+.contact-info span {
+  color: #03050F;
+  font-size: 12px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+  font-weight: 600;
+}
+
+/* Estilos para las tabs */
+.tabs-content {
+  width: 100vw;
+  background: #EDEFFC;
+}
+
+.tabs-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #EDEFFC;
+}
+
+.tabs {
+  display: flex;
+  align-items: center;
+}
+
+.tab-button {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  color: #7a869a;
+  padding: 10px 20px;
+  cursor: pointer;
+  position: relative;
+  transition: color 0.3s ease;
+}
+
+.tab-button .tab-index {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border: 2px solid #a1a3b5;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-size: 16px;
+  margin-right: 10px;
+  color: #7a869a;
+}
+
+.tab-button.active {
+  color: #1b1b3a;
+}
+
+.tab-button.active .tab-index {
+  background-color: #4f46e5; /* Fondo del número cuando está activo */
+  border-color: transparent;
+  color: #fff;
+}
+
+.tab-separator {
+  margin: 0 10px;
+}
+
+.dotted-line {
+  display: block;
+  width: 50px;
+  border-bottom: 2px dashed #4f46e5ab;
+}
+
+/* Estilos para el contenido del slider */
+.slider-content {
+  width: 100%;
+  /* max-width: 600px; */
+  margin-top: 20px;
+}
+
+.back-container {
+  width: 80%;
+  display: block;
+  margin: auto;
+}
