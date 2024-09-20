@@ -1,7 +1,7 @@
 {
   "name": "rimac-frontend",
   "version": "0.1.0",
-  "homepage": "https://kingterojd.github.io/rimac-frontend",
+  "homepage": "https://rimac-frontend-9xk53ih3i-jesus-quinteros-projects.vercel.app",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
